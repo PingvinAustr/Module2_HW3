@@ -1,9 +1,12 @@
 ﻿using System;
 
-public class Program
+namespace Module2_HW3
 {
-    public void Main(string[] args)
+    public class Program
     {
-        // Init
+        public static void Main(string[] args)
+        {
+            Starter.Run();
+        }
     }
 }

@@ -8,7 +8,8 @@ namespace Module2_HW3
 {
     public class Laptop : Computer
     {
-        public Laptop(string name, string brand, int power, int price, string series, double screenSize) : base(name, brand, power, price, series)
+        public Laptop(string name, string brand, int power, int price, string series, double screenSize)
+            : base(name, brand, power, price, series)
         {
             ScreenSize = screenSize;
         }

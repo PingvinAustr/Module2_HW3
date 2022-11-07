@@ -40,7 +40,7 @@ namespace Module2_HW3
             return _avgPower;
         }
 
-        public void SetOrderProdcuts(Device[] devices)
+        public void SetOrderProducts(Device[] devices)
         {
             _devices = devices;
         }
